@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
   </head>
 
@@ -60,7 +61,7 @@
           </div>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="images/cover/cover-1.png" class="d-block w-100 " alt="..." />
+              <img src="images/cover/cover-1.png" class="d-block w-100 bright" alt="..." />
               <div class="carousel-caption d-flex flex-column justify-content-center align-item-center h-100">
                 <h1 class="fw-bold">First slide label</h1>
                 <p>
@@ -72,7 +73,7 @@
             </div>
 
             <div class="carousel-item">
-              <img src="images/cover/cover-2.jpg" class="d-block w-100" alt="..." />
+              <img src="images/cover/cover-2.jpg" class="d-block w-100 bright" alt="..." />
               <div class="carousel-caption d-flex flex-column justify-content-center align-item-center h-100">
                 <h1 class="fw-bold">Second slide label</h1>
                 <p>
@@ -83,7 +84,7 @@
               </div>
             </div>
             <div class="carousel-item">
-              <img src="images/cover/cover-3.jpg" class="d-block w-100" alt="..." />
+              <img src="images/cover/cover-3.jpg" class="d-block w-100 bright" alt="..." />
               <div class="carousel-caption d-flex flex-column justify-content-center align-item-center h-100">
                 <h1 class="fw-bold">Third slide label</h1>
                 <p>
@@ -125,7 +126,7 @@
             <div class="card mb-3" style="max-width: 540px">
               <div class="row g-0">
                 <div class="col-md-4">
-                  <img src="images/course/course-1.png" class="img-fluid rounded-start" alt="..." />
+                  <img src="images/course/course-1.png" class="img-fluid rounded-start w-md-100" alt="..." />
                 </div>
                 <div class="col-md-8">
                   <div class="card-body">
@@ -262,12 +263,12 @@
 
       <section class="container rounded bg-info p-5 m-5 ">
         <div class="row justify-content-between">
-          <div class="col-4 text-light">
+          <div class="col-lg-4 text-light col-md-12">
             <h1> Ready to join? </h1>
             <p> It is a long established fact that a reader will be distracted by the
               readable content of a page when looking at its layout.</p>
           </div>
-          <div class="col-4 my-auto">
+          <div class="col-lg-4 my-auto col-md-12">
             <button type="button" class="btn btn-lg btn-secondary" data-bs-toggle="modal"
               data-bs-target="#exampleModal">
               Register Now
@@ -305,7 +306,7 @@
               </div>
             </div>
           </div>
-         </div>
+        </div>
         </div>
       </section>
 
@@ -392,7 +393,11 @@
                 <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse"
                   aria-labelledby="panelsStayOpen-headingFour">
                   <div class="accordion-body">
-                    Semantic HTML elements are those that clearly describe their meaning in a human- and machine-readable way. It makes web pages more informative and adaptable, allowing browsers and search engines to better interpret content. Elements such as header, footer and article are all considered semantic because they accurately describe the purpose of the element and the type of content that is inside them.
+                    Semantic HTML elements are those that clearly describe their meaning in a human- and
+                    machine-readable way. It makes web pages more informative and adaptable, allowing browsers and
+                    search engines to better interpret content. Elements such as header, footer and article are all
+                    considered semantic because they accurately describe the purpose of the element and the type of
+                    content that is inside them.
                   </div>
                 </div>
               </div>
@@ -402,25 +407,27 @@
         </div>
       </section>
 
-      <section class="container">
-          <div class="col text-center mb-5">
-            <h1 class="fw-bold">Trusted by over 800+ companies</h1>
-          </div>
-          <div class="d-flex justify-content-between">
-            <img src="images/company/company-1.png" alt="">
-            <img src="images/company/company-2.png" alt="">
-            <img src="images/company/company-3.png" alt="">
-            <img src="images/company/company-4.png" alt="">
-            <img src="images/company/company-5.png" alt="">
-            <img src="images/company/company-6.png" alt="">
-          </div>
+      <section class="d-none d-sm-none d-md-none d-lg-block" class="container">
+        <div class="col text-center mb-5">
+          <h1 class="fw-bold">Trusted by over 800+ companies</h1>
+        </div>
+        <div class="d-flex justify-content-between">
+          <img src="images/company/company-1.png" alt="">
+          <img src="images/company/company-2.png" alt="">
+          <img src="images/company/company-3.png" alt="">
+          <img src="images/company/company-4.png" alt="">
+          <img src="images/company/company-5.png" alt="">
+          <img src="images/company/company-6.png" alt="">
+        </div>
         </div>
       </section>
-
-
-
-
     </main>
+
+    <footer>
+
+
+
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
